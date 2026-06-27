@@ -85,7 +85,7 @@ Opens at: http://localhost:5173
 | 4 | EDA Visualizations — histograms, boxplots, heatmaps, pairplots, violin plots |
 | 5 | PCA — explained variance, 2D scatter |
 | 6 | Model Training — Logistic Regression, KNN, Decision Tree |
-|   | Evaluation — accuracy, precision, recall, F1, confusion matrix, ROC curve, feature importance |
+| 7 | Evaluation — accuracy, precision, recall, F1, confusion matrix, ROC curve, feature importance |
 
 ## Dashboard Tabs
 | Tab | Content |
