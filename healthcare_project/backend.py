@@ -20,11 +20,23 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=['http://localhost:5173', 'http://127.0.0.1:5173', 'http://localhost:3000', 'http://127.0.0.1:3000'],
+    # For production deployment you should set VITE_API_URL on the frontend and add your frontend domain here.
+    # TEMP: allow common hosting origins to avoid CORS blocking while you deploy.
+    allow_origins=[
+        'http://localhost:5173',
+        'http://127.0.0.1:5173',
+        'http://localhost:3000',
+        'http://127.0.0.1:3000',
+        # Frontend (Netlify) — add domain once you know it.
+        # Temporarily allow Netlify preview/domain patterns:
+        'https://*.netlify.app',
+
+    ],
     allow_credentials=True,
     allow_methods=['*'],
     allow_headers=['*'],
 )
+
 
 class PredictRequest(BaseModel):
     disease: str
