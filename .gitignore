@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+ENV/
+
+# Logs
+*.log
+
+# Data / models (keep if you want them tracked)
+# Comment out next line if you want to commit pickles/models
+# *.pkl
+
+# FastAPI/Streamlit caches
+.streamlit/
+
+# Node / React
+healthcare_project/frontend/node_modules/
+healthcare_project/frontend/dist/
+healthcare_project/frontend/build/
+healthcare_project/frontend/.vite/
+healthcare_project/frontend/coverage/
+
+# Vite / React env files
+*.env
+*.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
