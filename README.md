@@ -3,6 +3,8 @@
 Lab Engineer: Ms. Summaiya Mehmood
 
 ---
+The Healthcare Risk Prediction System is a machine learning-based application developed to predict the risk of two common chronic diseases: Diabetes Mellitus and Heart Disease
+
 
 ## Folder Structure
 ```
