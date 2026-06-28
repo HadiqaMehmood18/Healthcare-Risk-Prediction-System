@@ -95,7 +95,3 @@ Opens at: http://localhost:5173
 | 📈 Model Metrics | Metrics table, confusion matrices, ROC curves, feature importance |
 | 🔵 PCA | Explained variance bar, 2D scatter by class |
 
-## Flowchart
-<img width="389" height="603" alt="image" src="https://github.com/user-attachments/assets/9ea467d9-05a0-492d-9803-af7aca5b2895" />
-
-
